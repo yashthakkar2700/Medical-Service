@@ -1,0 +1,34 @@
+.large-hero{
+    color: red;
+    position: relative;
+}
+
+.large-hero__text-content{
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+.large-hero__strip-title{
+    padding: 20px 40px;
+    border-radius: 6px 6px 0px 0px;
+    background-color: #00a3c8;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #FFF;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+
+.large-hero__text-content__text{
+    background-color: #FFF;
+    padding: 50px 40px;
+    width: 50%;
+    border-radius: 0 6px 6px 6px;
+}
+
+.large-hero__subtitle{
+    font-size: 1.75rem;
+}

@@ -1,0 +1,16 @@
+/*
+* FILE ARCHITECTURE
+* IDENTIFY PATTERNS IN THE DESIGN
+* RULES TO BE FOLLOWED TO NAME THE CLASSES OF CSS
+
+* BEM methodology
+* B - Block   (reusable element)
+* E - Element (It is inside the block)
+* M - 
+*/
+
+@import "normalize.css";
+@import "base/_global";
+@import "modules/_large-hero";
+
+
