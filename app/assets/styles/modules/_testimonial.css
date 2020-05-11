@@ -1,0 +1,49 @@
+.testimonial{
+    &-block{
+        background-color: $white;
+        border: 1px solid #f5f5f5;
+        padding: 40px 30px;
+        border-radius: 6px;
+        position: relative;
+        text-align: center;
+        height: 100%;
+    }
+    &-avatar{
+        width: 70px;
+        height: 70px;
+        margin: 0 0 30px 0;
+        border-radius: 100%;
+    }
+    &-quote-icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 105px;
+        transform: translate(-50%, -50%);
+        opacity: .14;
+    }
+    &-content{
+        font-size: 1.35rem;
+        font-family: 'Lato', sans-serif;
+        line-height: 1.35;
+        font-weight: 400;
+    }
+    &-author{
+        font-size: 0.775rem;
+        line-height: 1;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+    }
+    &-designation{
+        color: $grey;
+        font-size: 0.7rem;
+        line-height: 1;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+}

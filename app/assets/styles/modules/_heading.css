@@ -1,0 +1,21 @@
+.heading{
+    &-subtitle{
+        color: $mainBlue;
+        text-transform: uppercase;
+        letter-spacing: .5px;
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+        font-weight: 900;
+    }
+    &-title{
+        font-size: 2.7rem;
+        color: $steelBlue;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    &-description{
+        padding: 0 20%;
+        font-size: 1.1rem;
+        color: $grey;
+    }
+}

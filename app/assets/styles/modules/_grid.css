@@ -1,0 +1,58 @@
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    
+    @mixin smallScreen{
+        max-width: 520px;    
+    }
+    @mixin mediumScreen{
+        max-width: 700px;
+    }
+    @mixin largeScreen{
+        max-width: 920px;
+    }
+    @mixin extraLargeScreen{
+        max-width: 1140px;
+    }
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    @mixin mediumScreen{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+.column{
+    flex: 1;
+    padding: 20px;
+}
+.column-big{
+    flex: 2;
+    padding: 20px;
+}
+.align-self-center{
+    align-self: center;
+}
+.align-self-start{
+    align-self: start; 
+}
+.align-self-end{
+    align-self: end;
+}
+.align-self-stretch{
+    align-self: stretch;
+}
+.align-self-start{
+    align-items: start;
+}
+.align-self-end{
+    align-items: end;
+}
+.align-self-center{
+    align-items: center;
+}
+.align-self-stretch{
+    align-items: stretch;
+}

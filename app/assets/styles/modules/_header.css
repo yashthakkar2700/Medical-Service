@@ -1,0 +1,58 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+    background-color: $white;
+    width: 100%;
+    transition: all 450ms ease-in-out;
+    
+    &-logo-block{
+        text-align: center;
+        @mixin mediumScreen{
+            text-align: left;
+        }
+    }
+    &-logo{
+        max-width: 180px;
+        height: auto;
+        margin: auto;
+    }
+}
+.menu-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-item-link{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: $grey;
+    &:hover{
+        color: $mainBlue;
+    }
+}
+
+.menu-content{
+    display: none;
+    @mixin mediumScreen{
+        display: block;
+    }
+}
+
+.mobile-header-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: $mainBlue;
+    top: 30px;
+    right: 30px;
+    @mixin mediumScreen{
+        display: none;
+    }
+}

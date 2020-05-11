@@ -11,8 +11,17 @@
 
 @import "normalize.css";
 @import "base/_variables";
+@import "base/_mixins";
 @import "base/_global";
+@import "modules/_grid";
+@import "modules/_header";
+@import "modules/_helper";
+@import "modules/_heading";
 @import "modules/_large-hero";
+@import "modules/_services";
+@import "modules/_counter";
+@import "modules/_testimonial";
+@import "modules/_footer";
 @import "modules/_btn";
 
 

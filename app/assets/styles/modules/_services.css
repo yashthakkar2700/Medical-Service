@@ -1,0 +1,37 @@
+.services{
+    &-box{
+        background-color: $white;
+        border: solid 1px #F5F5F5;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 60px 10px;
+        border-radius: 6px;
+        transition: all 300ms ease-in-out;
+        
+        &:hover{
+           background-color: $mainBlue;
+            border: 1px solid $mainBlue;
+        }
+    }
+    &-icon{
+        width: 80px;
+        transition: all 300ms ease-in-out;
+    }
+    &-box:hover &-icon{
+        transform: translateY(40px);
+    }
+    
+    &-title{
+        letter-spacing: -0.5px;
+        margin-top: 25px;
+        margin-bottom: 0;
+        transition: all 300ms ease-in-out;
+        font-size: 1.1875rem;
+        color: $steelBlue;
+        font-weight: 700;
+    }
+    &-box:hover &-title{
+        color: $white;
+        transform: translateY(-110px);
+    }
+}
